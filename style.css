@@ -1,0 +1,324 @@
+body{
+    background-color: bisque;
+}
+nav{
+    background-color: rgb(80, 255, 147);
+    padding: 15px;
+    
+    
+}
+ul li{
+    list-style: none;
+    
+}
+ul li{
+        /* inline mean text show in horizatal mean in an a line way */
+    display: inline;
+    padding: 20px;
+    color: rgb(180, 15, 15);
+}
+/* css specfies used for to avoid override element  thats for only interview question */
+/* css sizing unit */
+.xyz {
+    background-color: aquamarine;
+    background-color: aquamarine;
+    height: 17px;
+    box-sizing: content-box;
+    font-size: 22px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    box-sizing: border-box;
+}
+
+.y {
+    background-color: aqua;
+    color: red;
+    font-weight: 50px;
+    text-decoration: underline;
+    text-decoration: underline;
+    text-decoration-thickness: 2PX;
+    text-indent: 20PX;
+    box-sizing: content-box;
+    font-size: 30px;
+    box-sizing: border-box;
+
+}
+
+
+
+
+/*  thats selector class id collour all h1 */
+h1 {
+    background-color: rgb(97, 97, 95);
+    color: azure;
+    text-transform: capitalize;
+    text-align: center;
+
+}
+
+
+/*  thats also selector but id is colour specfic id  */
+
+#green {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(101, 104, 102);
+    font-style: italic;
+    color: rgb(244, 243, 243);
+    text-shadow: 2px 2px 4px #9e3333;
+   
+}
+/* jab hm kese text ko select kerte hain copy kerne ka liye copy hoi text ka back ground color change kerne ka liye istamal hota ha */
+::selection{
+    background-color: rgb(7, 8, 8);
+    color: #d81313;
+
+}
+
+
+/* seodou selecter */
+a:visited {
+    color: brown;
+    background-color: rgb(145, 145, 22);
+}
+
+a:link {
+    color: rgb(217, 18, 78);
+}
+
+/*specfic link colour  */
+#saad {
+    color: blueviolet;
+}
+
+/* button click color tag */
+a:active {
+    background-color: rgb(181, 145, 236);
+}
+
+/* seoudo hower yag */
+a:hover {
+    background-color: aquamarine;
+}
+
+.shi {
+    background-color: rgb(2, 250, 167);
+    color: azure;
+    text-align: center;
+}
+
+.b {
+    background-color: rgb(184, 190, 188);
+
+
+
+
+}
+
+.box {
+    border:2px solid rgb(143, 139, 139);
+    background-color: grey;
+    color: white;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 35px;
+    padding: 5px;
+    height: 30px;
+    font-size: 15px;
+    width: 200px;
+    /* display:flex; this tag used to nav bar botton in line wise like order list */
+    display: flex inline;
+    justify-content: center;
+    /* box shadow consist of horizatal verticle */
+    box-shadow: 5px 5px 15px 5px #d81313;
+    /* width: 25px; */
+    /* height: 0px; */
+    /* position: sticky; */
+    top:0px;
+        position: sticky;
+
+    
+}
+ input::placeholder{
+    background-color: white;
+    color: #d81313;
+    
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.bbb {
+    outline: 2px solid rgb(83, 83, 87);
+    border: solid rgb(197, 129, 26);
+}
+
+
+
+
+
+
+:root {
+    --color: red;
+    --seccolor: rgb(11, 151, 186);
+}
+
+
+
+
+.z {
+     color: rgb(243, 242, 242);
+    background-color: var(--seccolor);
+    border: 2px solid var(--color);
+    white-space: nowrap;
+    overflow:scroll;
+    /* text-overflow:ellipsis; */
+    /* textoverflow ellipsess context ka aghe ... dekhata ha no show all content only conceptual no major used */
+
+}
+
+.L {
+    width: 20vw;
+    height: 35vh;
+    border: 2px solid brown;
+    /* SCROLL BAR AUTO AUTTOMATICALLY ADJUST THE DCROLL BAR IF THE DATA OVERFLOW */
+    overflow: scroll;
+    background-color: rgb(159, 212, 162);
+    color: rgb(222, 8, 8);
+
+}
+@media (min-width:500px){
+    
+.L{
+background-color: #7fc490;
+}    
+}
+
+    
+
+.p{
+     border-radius: 20px;
+border: solid black ;
+height: 80vh;
+width: 20vw;
+padding: 20px;
+margin: 10px;
+background-color: #0ccacae8;
+
+}
+.q{
+    border: solid black;
+    padding: 2px;
+    margin: 2px;
+    position: relative;
+    top: 10px;
+    background-color: ;
+    background-color: rgb(20, 165, 93);
+    color: aliceblue;
+
+}
+.Xh{
+ border: solid black;
+    padding: 2px;
+    position: relative;
+    top: 10px;
+    margin: 20px;
+    background-color: rgb(20, 165, 93);
+    color: aliceblue;
+}
+.cc{
+    position: relative;
+    align-items: center;
+    bottom: 2px;
+    height: 150px;
+    right: 13px;
+    width: 260px;
+    
+}
+.de{
+    text-align: center;
+    left: 18px;
+    position: relative;
+    top: 25px;
+    width: 200px;
+    padding: 2px;
+    background-color: rgb(1, 101, 140);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.we{
+    border: 2px solid black;
+    position: relative;
+    top: 50px;
+    background-color: rgb(178, 190, 132);
+   
+}
+
+
+.cards{
+    
+    border: 2px solid black;
+    display: flow-root;
+    
+}
+/* float right allow the text to the paragraf with image
+ clear left ma text flow ni kerta left side ma */
+.cardd{
+    float: right;
+    height: 300px;
+    width: 500;
+
+
+}
+
+ 
+ .card::first-line{
+    background-color: #d81313;
+    color: rgb(28, 125, 125);   
+}
+
+/* /* thtat a universal selector to manage all the boxes to changes the boxes color border  
+.card *{
+    /* background-color: rgb(29, 125, 93); */
+
+
+
+    /*  
+                   start            flex                 box */
+  .container{
+border: 2px solid green;
+display: flex;
+/* justify content center 1 line ka center ma a ghe gha */
+justify-content: center;
+/* aliign item center agher 6 lines ha tu 3 ma center ma a ghe gha  */
+align-items:center;
+height: 40px;
+
+  }               
+  .item{
+    height: 12px;
+    width: 50px;
+    background-color: #d81313;
+    border: 2px solid black;
+    margin: 4px;
+  }
+  /*         finish flex box */
+ .containers{
+border: 2px solid green;
+display: grid;
+grid-template-columns: 120px 100px ;
+grid-template-rows: 100px 100px 100px;
+  }               
+  .items{
+    height: 12px;
+    width: 50px;
+    background-color: #d81313;
+    border: 2px solid black;
+    margin: 4px;
+  } 
